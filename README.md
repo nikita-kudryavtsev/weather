@@ -29,5 +29,5 @@ npm run dev
 Для запуска сборки используйте команду
 
 ```bash
-npm build
+npm run build
 ```
