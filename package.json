@@ -1,7 +1,7 @@
 {
   "name": "my-vue-app",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -13,6 +13,7 @@
     "clsx": "^2.1.1",
     "lucide-vue-next": "^0.477.0",
     "pinia": "^3.0.1",
+    "reka-ui": "^2.0.2",
     "tailwind-merge": "^3.0.2",
     "tailwindcss-animate": "^1.0.7",
     "vue": "^3.5.13"
@@ -25,6 +26,8 @@
     "tailwindcss": "^3.4.17",
     "typescript": "~5.7.2",
     "vite": "^6.2.0",
+    "vite-svg-loader": "^5.1.0",
+    "vue-svg-loader": "^0.16.0",
     "vue-tsc": "^2.2.4"
   }
 }
