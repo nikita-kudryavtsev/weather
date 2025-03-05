@@ -1,8 +1,9 @@
-import path from 'node:path'
-import vue from '@vitejs/plugin-vue'
-import autoprefixer from 'autoprefixer'
-import tailwind from 'tailwindcss'
-import { defineConfig } from 'vite'
+import path from 'node:path';
+import vue from '@vitejs/plugin-vue';
+import autoprefixer from 'autoprefixer';
+import tailwind from 'tailwindcss';
+import svgLoader from 'vite-svg-loader';
+import { defineConfig } from 'vite';
 
 export default defineConfig({
   css: {
@@ -10,10 +11,10 @@ export default defineConfig({
       plugins: [tailwind(), autoprefixer()],
     },
   },
-  plugins: [vue()],
+  plugins: [vue(), svgLoader()],
   resolve: {
     alias: {
       '@': path.resolve(__dirname, './src'),
     },
   },
-})
+});

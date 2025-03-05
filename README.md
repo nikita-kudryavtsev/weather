@@ -1,5 +1,33 @@
-# Vue 3 + TypeScript + Vite
+# Привет!
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+Добро пожаловать на мой проект, написанный на коленке за 2 вечера
 
-Learn more about the recommended Project Setup and IDE Support in the [Vue Docs TypeScript Guide](https://vuejs.org/guide/typescript/overview.html#project-setup).
+### О проекте
+
+- В проекте используется TypeScript
+- State-manager Pinia
+- UI библиотека Shadcn
+- Библиотека стилей Tailwindcss
+- Заменой API служат моковые JSON
+
+### Запуск проекта
+
+Для запуска проекта запусти команду
+
+```bash
+npm install
+```
+
+затем
+
+```bash
+npm run dev
+```
+
+### Сборка
+
+Для запуска сборки используйте команду
+
+```bash
+npm build
+```
