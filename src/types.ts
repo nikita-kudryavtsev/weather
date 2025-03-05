@@ -30,7 +30,7 @@ export interface CitiesWeatherWeek {
 export interface WeatherForecast {
   datetime: string;
   temperature: number;
-  cloudiness: CLOUDINESS;
+  cloudiness: CLOUDINESS[keyof CLOUDINESS];
   humidity: number;
   wind_speed: number;
 }
@@ -38,7 +38,7 @@ export interface WeatherForecast {
 export interface WeatherWeekForecast {
   day: string;
   temperature: number;
-  cloudiness: CLOUDINESS;
+  cloudiness: CLOUDINESS[keyof CLOUDINESS];
   humidity: number;
   wind_speed: number;
 }
@@ -55,7 +55,7 @@ export interface CityWeatherNow {
   datetime: string;
   temperature: number;
   feels_like: number;
-  cloudiness: CLOUDINESS;
+  cloudiness: CLOUDINESS[keyof CLOUDINESS];
   humidity: number;
   wind_speed: number;
   pressure: number;

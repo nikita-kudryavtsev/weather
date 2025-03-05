@@ -1,6 +1,6 @@
 import { CLOUDINESS } from '@/types.ts';
 
-export function getIconName(cloudiness: CLOUDINESS) {
+export function getIconName(cloudiness: CLOUDINESS[keyof CLOUDINESS]) {
   switch (cloudiness) {
     case CLOUDINESS.CLOUDY: {
       return 'cloud';
